@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  TQRichTextViewTest
+//
+//  Created by 杨启晖 on 15/2/27.
+//  Copyright (c) 2015年 NationSky. All rights reserved.
+//
+
+#ifndef TQRichTextViewTest_PrefixHeader_pch
+#define TQRichTextViewTest_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#endif
+#endif
+
